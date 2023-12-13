@@ -13,7 +13,8 @@
             <ColumnDefinition Width="15*"/>
             <ColumnDefinition Width="15*"/>
             <ColumnDefinition Width="15*"/>
-            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="20*"/>
         </Grid.ColumnDefinitions>
 
         <Image Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"
@@ -48,23 +49,15 @@
        Source="/Assets/forward.png" Margin="10" IsHitTestVisible="False" />
 
         <Image  Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center"
-       Source="/Assets/next.png" Margin="10" IsHitTestVisible="False" />
+        Source="/Assets/next.png" Margin="10" IsHitTestVisible="False" />
 
-        <Grid Grid.Column="5">
+
+        <Image Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Left" 
+            Source="/Assets/speaker.png" IsHitTestVisible="False"/>
+
+        <Slider Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Right" Width="140" Maximum="100" 
+            LargeChange="5" SmallChange="1" Margin="0,0,5,0"/>
             
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width=".2*"/>
-                <ColumnDefinition Width=".8*"/>
-            </Grid.ColumnDefinitions>
-
-
-            <Image VerticalAlignment="Center" HorizontalAlignment="Left" 
-                   Source="/Assets/speaker.png" IsHitTestVisible="False"/>
-
-            <Slider Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Width="140" Maximum="100" 
-                    LargeChange="5" SmallChange="1" Margin="0,0,5,0"/>
-            
-        </Grid>
 
 
     </Grid>
