@@ -1,0 +1,15 @@
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\bin\Debug\Groove.exe.config
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\bin\Debug\Groove.exe
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\bin\Debug\Groove.pdb
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.csproj.AssemblyReference.cache
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\MainWindow.g.cs
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\App.g.cs
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove_MarkupCompile.cache
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove_MarkupCompile.lref
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\MainWindow.baml
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.g.resources
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.Properties.Resources.resources
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.csproj.GenerateResource.cache
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.csproj.CoreCompileInputs.cache
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.exe
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.pdb
