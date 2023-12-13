@@ -13,19 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-// Imported
-using Groove.MainFunctions;
-
-namespace Groove
+namespace Groove.View.UserControls
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for UserAccess.xaml
     /// </summary>
-
-    public partial class MainWindow : Window
+    public partial class UserAccess : UserControl
     {
-
-        public MainWindow()
+        public UserAccess()
         {
             InitializeComponent();
         }

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\App.xaml
-21098843877
+5987038745
 
-6-736798891
+10-766584921
 13-946294123
-MainWindow.xaml;View\UserControls\MenuBar.xaml;
+MainWindow.xaml;View\UserControls\ClearableTextBox.xaml;View\UserControls\FooterMenu.xaml;View\UserControls\MenuBar.xaml;View\UserControls\UserAccess.xaml;
 
 False
 

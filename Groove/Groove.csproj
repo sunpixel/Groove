@@ -55,8 +55,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MainFunctions\FileHandler.cs" />
+    <Compile Include="View\UserControls\ClearableTextBox.xaml.cs">
+      <DependentUpon>ClearableTextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControls\FooterMenu.xaml.cs">
+      <DependentUpon>FooterMenu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\UserControls\MenuBar.xaml.cs">
       <DependentUpon>MenuBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControls\UserAccess.xaml.cs">
+      <DependentUpon>UserAccess.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -70,7 +80,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\UserControls\ClearableTextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UserControls\FooterMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\UserControls\MenuBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UserControls\UserAccess.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -100,6 +122,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\Profile_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\moon.png" />
+    <Resource Include="Assets\sun.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\forward.png" />
+    <Resource Include="Assets\next.png" />
+    <Resource Include="Assets\pause.png" />
+    <Resource Include="Assets\play.png" />
+    <Resource Include="Assets\speaker.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

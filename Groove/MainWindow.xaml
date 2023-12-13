@@ -18,12 +18,14 @@
         >
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="70"/>
+            <RowDefinition Height="80"/>
             <RowDefinition/>
-            <RowDefinition Height="20"/>
+            <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
-
-        <UserControls:MenuBar />
+        <Grid Grid.Row="0">
+            <UserControls:MenuBar/>
+        </Grid>
+        <UserControls:FooterMenu Grid.Row="2"/>
 
     </Grid>
 </Window>

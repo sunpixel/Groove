@@ -16,3 +16,9 @@ C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groov
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\MenuBar.g.cs
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\MenuBar.baml
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\ClearableTextBox.g.cs
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\UserAccess.g.cs
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\ClearableTextBox.baml
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\UserAccess.baml
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\FooterMenu.g.cs
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\FooterMenu.baml

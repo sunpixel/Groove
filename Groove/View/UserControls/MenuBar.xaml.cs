@@ -24,5 +24,35 @@ namespace Groove.View.UserControls
         {
             InitializeComponent();
         }
+
+        private bool _isDark = false;
+
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            Environment.Exit(GetHashCode());
+        }
+
+        private void btn_Profile_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+/*        private void ThemeChange_Click(object sender, RoutedEventArgs e)
+        {
+            ImageSourceConverter iSC= new ImageSourceConverter();
+            if (_isDark)
+            {
+                _isDark = false;
+                ThemeImageMoon.Visibility = Visibility.Hidden;
+                ThemeImageSun.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                _isDark = true;
+                ThemeImageSun.Visibility = Visibility.Hidden;
+                ThemeImageMoon.Visibility= Visibility.Visible;
+            }
+        }*/
     }
 }
