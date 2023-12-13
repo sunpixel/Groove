@@ -3,7 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Groove"
+        xmlns:local="clr-namespace:Groove" 
+
+    
+        xmlns:UserControls="clr-namespace:Groove.View.UserControls"
         mc:Ignorable="d"
         Title="Groove" 
         x:Name="Groove"
@@ -20,29 +23,7 @@
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
 
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="30"/>
-                <RowDefinition Height="40"/>
-            </Grid.RowDefinitions>
-            <Menu>
-                <MenuItem Header="File" FontSize="16">
-                    <MenuItem Header="Exit" FontSize="16"/>
-                </MenuItem>
-                <MenuItem Header="Edit" FontSize="16"/>
-            </Menu>
-            
-            <Grid Grid.Row="1">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="auto"/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+        <UserControls:MenuBar />
 
-                <Button Width="40" Content="Run" FontSize="15"/>
-
-            </Grid>
-        </Grid>
     </Grid>
 </Window>

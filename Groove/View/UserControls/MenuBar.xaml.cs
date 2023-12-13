@@ -13,16 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Groove
+namespace Groove.View.UserControls
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MenuBar.xaml
     /// </summary>
-
-    public partial class MainWindow : Window
+    public partial class MenuBar : UserControl
     {
-
-        public MainWindow()
+        public MenuBar()
         {
             InitializeComponent();
         }

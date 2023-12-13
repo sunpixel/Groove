@@ -13,3 +13,6 @@ C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groov
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.csproj.CoreCompileInputs.cache
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.exe
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.pdb
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\MenuBar.g.cs
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\MenuBar.baml
