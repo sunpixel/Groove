@@ -22,3 +22,5 @@ C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\UserAccess.baml
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\FooterMenu.g.cs
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\FooterMenu.baml
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\ClearablePasswordBox.g.cs
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\ClearablePasswordBox.baml

@@ -5,60 +5,86 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Groove.View.UserControls"
              mc:Ignorable="d" 
-             Height="60" d:DesignWidth="800">
+             Height="100" d:DesignWidth="800">
     <Grid Background="White">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="15*"/>
-            <ColumnDefinition Width="15*"/>
-            <ColumnDefinition Width="15*"/>
-            <ColumnDefinition Width="15*"/>
-            <ColumnDefinition Width="15*"/>
-            <ColumnDefinition Width="5*"/>
-            <ColumnDefinition Width="20*"/>
-        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
 
-        <Image Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"
-               Source="/Assets/next.png" Margin="10" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="False" >
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="180"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
+        <!--#region -->
+            <Image Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"
+                   Source="/Assets/next.png" Margin="10" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="False" IsEnabled="False"
+                   Panel.ZIndex="0">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="180"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Button Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center"
+                    Width="40" Height="40" Background="Transparent" Foreground="Transparent"
+                    BorderThickness="0" Name="btn_SkipBack" Click="btn_SkipBack_Click" Panel.ZIndex="-1"/>
 
-        <Image Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"
-       Source="/Assets/forward.png" Margin="10" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="False" >
-            <Image.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="180"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Image.RenderTransform>
-        </Image>
+            <Image Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"
+                   Source="/Assets/forward.png" Margin="10" RenderTransformOrigin="0.5,0.5" IsHitTestVisible="False" IsEnabled="False" >
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <RotateTransform Angle="180"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Button Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"
+                    Width="40" Height="40" Background="Transparent" Foreground="Transparent"
+                    BorderThickness="0" Name="btn_SlowDown" Click="btn_SlowDown_Click" Panel.ZIndex="-1"/>
 
-        <!-- Play Button -->
-        <Image  Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"
-               Source="/Assets/play.png" Margin="10" IsHitTestVisible="False" />
-
-        <Image  Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center"
-       Source="/Assets/forward.png" Margin="10" IsHitTestVisible="False" />
-
-        <Image  Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center"
-        Source="/Assets/next.png" Margin="10" IsHitTestVisible="False" />
+            <!-- Play Button -->
+            <Image  Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"
+                    Source="/Assets/play.png" Margin="10" IsHitTestVisible="False" IsEnabled="False" Panel.ZIndex="0"/>
+            <Button Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"
+                    Width="40" Height="40" Background="Transparent" Foreground="Transparent"
+                    BorderThickness="0" Name="btn_Play_Pause" Click="btn_Play_Pause_Click" Panel.ZIndex="-1"/>
 
 
-        <Image Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Left" 
-            Source="/Assets/speaker.png" IsHitTestVisible="False"/>
+            <Image  Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center"
+                    Source="/Assets/forward.png" Margin="10" IsHitTestVisible="False" IsEnabled="False"/>
+            <Button Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center"
+                    Width="40" Height="40" Background="Transparent" Foreground="Transparent"
+                    BorderThickness="0" Name="btn_SpeedUp" Click="btn_SpeedUp_Click" Panel.ZIndex="-1"/>
 
-        <Slider Grid.Column="6" VerticalAlignment="Center" HorizontalAlignment="Right" Width="140" Maximum="100" 
-            LargeChange="5" SmallChange="1" Margin="0,0,5,0"/>
-            
 
+            <Image  Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center"
+            Source="/Assets/next.png" Margin="10" IsHitTestVisible="False" IsEnabled="False" />
+            <Button Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center"
+                    Width="40" Height="40" Background="Transparent" Foreground="Transparent"
+                    BorderThickness="0" Name="btn_SkipForward" Click="btn_SkipForward_Click" Panel.ZIndex="-1"/>
+
+
+            <Image Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                    Source="/Assets/speaker.png" IsHitTestVisible="False" IsEnabled="False"/>
+            <Button Grid.Column="5" VerticalAlignment="Center" HorizontalAlignment="Center"
+                    Width="40" Height="40" Background="Transparent" Foreground="Transparent"
+                    BorderThickness="0" Name="btn_Volume" Click="btn_Volume_Click" Panel.ZIndex="-1"/>
+
+
+            <Slider Grid.Column="5" VerticalAlignment="Top" HorizontalAlignment="Center" Width="20" Height="100" Maximum="100" 
+                    LargeChange="5" SmallChange="1"  Value="100" Orientation="Vertical" Margin="0,-100,0,0" Visibility="Hidden"
+                    x:Name="VolumeSlider"/>
+        </Grid>
+        
+        <Slider HorizontalAlignment="Center" VerticalAlignment="Center"  Height="20" 
+                LargeChange="10" SmallChange="1" Maximum="100" Value="{Binding PlayTime}" 
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MinWidth="250"/>
+        <!--#endregion-->
 
     </Grid>
 </UserControl>

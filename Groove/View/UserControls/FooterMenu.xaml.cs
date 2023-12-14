@@ -24,5 +24,61 @@ namespace Groove.View.UserControls
         {
             InitializeComponent();
         }
+
+
+        private bool SliderVisible = false;
+
+        private double playTime;
+
+        public double PlayTime
+        {
+            get { return playTime; }
+            set 
+            { 
+                playTime = value; 
+                
+            }
+        }
+
+
+
+        private void btn_SkipBack_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_SlowDown_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_Play_Pause_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_SpeedUp_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_SkipForward_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_Volume_Click(object sender, RoutedEventArgs e)
+        {
+            if(SliderVisible) 
+            {
+                SliderVisible = false;
+                VolumeSlider.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                SliderVisible= true;
+                VolumeSlider.Visibility = Visibility.Visible;
+            }
+        }
     }
 }

@@ -14,18 +14,21 @@
         Height="450" 
         Width="800"
         MinHeight="400"
-        MinWidth="300"
-        >
-    <Grid>
+        MinWidth="300">
+    
+    
+    <Grid Width="802">
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
+        
         <Grid Grid.Row="0">
             <UserControls:MenuBar/>
         </Grid>
-        <UserControls:FooterMenu Grid.Row="2"/>
+        <UserControls:FooterMenu Grid.Row="2" PlayTime ="50.0"/>
 
     </Grid>
 </Window>
