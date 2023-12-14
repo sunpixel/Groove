@@ -56,8 +56,12 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="MainFunctions\FileHandler.cs" />
+    <Compile Include="MainFunctions\SoundPlayer.cs" />
     <Compile Include="View\Pages\Janres.xaml.cs">
       <DependentUpon>Janres.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pages\Main.xaml.cs">
+      <DependentUpon>Main.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Pages\Personal.xaml.cs">
       <DependentUpon>Personal.xaml</DependentUpon>
@@ -93,6 +97,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="View\Pages\Janres.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pages\Main.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -172,6 +180,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\Evil_Face.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Music\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

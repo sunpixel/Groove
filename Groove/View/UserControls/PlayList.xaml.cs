@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using Groove.MainFunctions;
 
 
 namespace Groove.View.UserControls
@@ -22,6 +23,8 @@ namespace Groove.View.UserControls
     /// </summary>
     public partial class PlayList : UserControl
     {
+        SoundPlayer player = new SoundPlayer();
+
         public PlayList()
         {
             InitializeComponent();
@@ -41,5 +44,21 @@ namespace Groove.View.UserControls
             }
         }
 
+        private Uri setSong;
+
+        public Uri SetSong
+        {
+            get { return  setSong; }
+            set 
+            {  
+                setSong = value;
+            }
+        }
+
+
+        private void btn_Proccess_data_Click(object sender, RoutedEventArgs e)
+        {
+            player.PlayPauseSound(SetSong);
+        }
     }
 }
