@@ -17,7 +17,7 @@
         MinWidth="300">
     
     
-    <Grid Width="802">
+    <Grid>
         
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -28,6 +28,11 @@
         <Grid Grid.Row="0">
             <UserControls:MenuBar/>
         </Grid>
+        
+        <StackPanel Grid.Row="1">
+            
+        </StackPanel>
+        
         <UserControls:FooterMenu Grid.Row="2" PlayTime ="50.0"/>
 
     </Grid>

@@ -83,7 +83,7 @@
         
         <Slider HorizontalAlignment="Center" VerticalAlignment="Center"  Height="20" 
                 LargeChange="10" SmallChange="1" Maximum="100" Value="{Binding PlayTime}" 
-                HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MinWidth="250"/>
+                HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MinWidth="250" Width="750"/>
         <!--#endregion-->
 
     </Grid>
