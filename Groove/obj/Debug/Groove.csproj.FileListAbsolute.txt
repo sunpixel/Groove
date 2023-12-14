@@ -2,11 +2,9 @@ C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\bin\Debug\Groov
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\bin\Debug\Groove.exe
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\bin\Debug\Groove.pdb
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.csproj.AssemblyReference.cache
-C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\MainWindow.g.cs
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\App.g.cs
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove_MarkupCompile.cache
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove_MarkupCompile.lref
-C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\MainWindow.baml
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.g.resources
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.Properties.Resources.resources
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\Groove.csproj.GenerateResource.cache
@@ -24,3 +22,11 @@ C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\FooterMenu.baml
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\ClearablePasswordBox.g.cs
 C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\ClearablePasswordBox.baml
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\Pages\Janres.g.cs
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\Pages\Personal.g.cs
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\PlayList.g.cs
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\Pages\Janres.baml
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\Pages\Personal.baml
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\View\UserControls\PlayList.baml
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\MainWindow.g.cs
+C:\Users\SunPixel\Desktop\Programming\Repositories\Groove\Groove\obj\Debug\MainWindow.baml

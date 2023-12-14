@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Groove" 
 
+        
     
         xmlns:UserControls="clr-namespace:Groove.View.UserControls"
         mc:Ignorable="d"
@@ -14,26 +15,35 @@
         Height="450" 
         Width="800"
         MinHeight="400"
-        MinWidth="300">
-    
-    
+        MinWidth="327">
+
+
     <Grid>
-        
+
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        
+
         <Grid Grid.Row="0">
             <UserControls:MenuBar/>
         </Grid>
-        
-        <StackPanel Grid.Row="1">
+
+        <WrapPanel Grid.Row="1" Orientation="Horizontal">
+            <UserControls:PlayList SourceString="/Assets/Telegram.png"
+                        Width="100" Height="100" VerticalAlignment="Top" Margin="2"/>
+            <UserControls:PlayList SourceString="/Assets/Evil_Face.jpg"
+                        Width="100" Height="100" VerticalAlignment="Top" Margin="2"/>
+            <UserControls:PlayList SourceString="/Assets/Telegram.png"
+                        Width="100" Height="100" VerticalAlignment="Top" Margin="2"/>
+            <UserControls:PlayList SourceString="/Assets/Telegram.png"
+                        Width="100" Height="100" VerticalAlignment="Top" Margin="2"/>
             
-        </StackPanel>
-        
-        <UserControls:FooterMenu Grid.Row="2" PlayTime ="50.0"/>
+
+        </WrapPanel>
+
+        <UserControls:FooterMenu Grid.Row="2" PlayTime="50"/>
 
     </Grid>
 </Window>

@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -28,6 +31,8 @@ namespace Groove.View.UserControls
 
         private bool SliderVisible = false;
 
+        private bool _isPlaying = false;
+
         private double playTime;
 
         public double PlayTime
@@ -39,6 +44,9 @@ namespace Groove.View.UserControls
                 
             }
         }
+
+        // funcs
+
 
 
 
@@ -54,7 +62,25 @@ namespace Groove.View.UserControls
 
         private void btn_Play_Pause_Click(object sender, RoutedEventArgs e)
         {
+            if(_isPlaying)
+            {
+                _isPlaying = false;
+                imgPause.Visibility = Visibility.Visible;
+                imgPlay.Visibility = Visibility.Hidden;
 
+                // Stopping play
+
+            }
+            else
+            {
+                _isPlaying = true;
+                imgPause.Visibility = Visibility.Hidden;
+                imgPlay.Visibility = Visibility.Visible;
+
+                // Selecting a random song from Library to play
+
+
+            }
         }
 
         private void btn_SpeedUp_Click(object sender, RoutedEventArgs e)

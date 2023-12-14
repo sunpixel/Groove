@@ -25,7 +25,7 @@ namespace Groove.View.UserControls
             InitializeComponent();
         }
 
-        private bool _isDark = false;
+/*        private bool _isDark = false;*/
 
 
         private void Exit_Click(object sender, RoutedEventArgs e)
@@ -38,7 +38,8 @@ namespace Groove.View.UserControls
             
         }
 
-/*        private void ThemeChange_Click(object sender, RoutedEventArgs e)
+/*
+        private void ThemeChange_Click(object sender, RoutedEventArgs e)
         {
             ImageSourceConverter iSC= new ImageSourceConverter();
             if (_isDark)
@@ -53,6 +54,7 @@ namespace Groove.View.UserControls
                 ThemeImageSun.Visibility = Visibility.Hidden;
                 ThemeImageMoon.Visibility= Visibility.Visible;
             }
-        }*/
+        }
+*/
     }
 }
