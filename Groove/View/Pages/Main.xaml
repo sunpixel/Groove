@@ -34,7 +34,8 @@
 
         </WrapPanel>
 
-        <ScrollBar Grid.Column="1" Margin="0,10,0,10" Width="10" BorderBrush="Black" BorderThickness="1.5" Background="#FFFFFF"/>
+        <ScrollBar Grid.Column="1" Margin="0,10,0,10" Width="10" BorderBrush="Black"
+                   BorderThickness="1.5" Background="#FFFFFF"/>
 
     </Grid>
 </Page>

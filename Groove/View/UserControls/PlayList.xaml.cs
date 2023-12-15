@@ -32,8 +32,6 @@ namespace Groove.View.UserControls
 
         private string sourceString;
 
-
-
         public string SourceString
         {
             get { return sourceString; }

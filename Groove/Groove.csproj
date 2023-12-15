@@ -63,6 +63,9 @@
     <Compile Include="View\Pages\Main.xaml.cs">
       <DependentUpon>Main.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Pages\Main_Alt.xaml.cs">
+      <DependentUpon>Main_Alt.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Pages\Personal.xaml.cs">
       <DependentUpon>Personal.xaml</DependentUpon>
     </Compile>
@@ -80,6 +83,9 @@
     </Compile>
     <Compile Include="View\UserControls\PlayList.xaml.cs">
       <DependentUpon>PlayList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UserControls\PlayListAlt.xaml.cs">
+      <DependentUpon>PlayListAlt.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\UserControls\UserAccess.xaml.cs">
       <DependentUpon>UserAccess.xaml</DependentUpon>
@@ -104,6 +110,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Pages\Main_Alt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Pages\Personal.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -125,6 +135,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\UserControls\PlayList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\UserControls\PlayListAlt.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

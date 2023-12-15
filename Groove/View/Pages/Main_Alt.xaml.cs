@@ -13,23 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-// Imported
-using Groove.MainFunctions;
-using Groove.View.Pages;
-
-namespace Groove
+namespace Groove.View.Pages
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Main_Alt.xaml
     /// </summary>
-
-    public partial class MainWindow : Window
+    public partial class Main_Alt : Page
     {
-
-        public MainWindow()
+        public Main_Alt()
         {
             InitializeComponent();
-            window.Content = new Main_Alt();
         }
     }
 }
