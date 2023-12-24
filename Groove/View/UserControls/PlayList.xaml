@@ -10,9 +10,9 @@
         <Grid>
             <Image Source="{Binding SourceString}" x:Name="Image" Margin="1" 
                    IsHitTestVisible="False"/>
+            <TextBlock Text="{Binding SetSong}" x:Name="SongName" Margin="5"/>
             <Button Background="Transparent" BorderThickness="0" Panel.ZIndex="-1"
                     x:Name="btn_Proccess_data" Click="btn_Proccess_data_Click" />
-            <TextBlock Text="{Binding SetSong}" x:Name="SongName" Margin="5"/>
         </Grid>
     </Border>
 

@@ -29,7 +29,7 @@ namespace Groove
         public MainWindow()
         {
             InitializeComponent();
-            window.Content = new Main_Alt();
+            window.Content = new Main();
         }
     }
 }
