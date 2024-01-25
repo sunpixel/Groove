@@ -29,12 +29,13 @@
 
         </Grid>
 
-        <Button Name="btn_Profile" 
+        <Button Name="btn_Mode" 
                 Grid.Column="2" Background="Transparent"  BorderThickness="0"
                 VerticalAlignment="Center" HorizontalAlignment="Right" Margin="7.5"
                 Click="btn_Profile_Click" Panel.ZIndex="-1" Width="35" Height="35"/>
 
-        <Image Grid.Column="2" Source="/Assets/Profile_Icon.png"
+        <Image x:Name="Mode_img"
+            Grid.Column="2" Source="/Assets/Profile_Icon.png"
                VerticalAlignment="Center" HorizontalAlignment="Right" Margin="7.5" IsEnabled="False" IsHitTestVisible="False" />
 
         <!--<Button Name="ThemeChange" Grid.Column="2" VerticalAlignment="Center" Width="50" Height="50" MinWidth="50" 

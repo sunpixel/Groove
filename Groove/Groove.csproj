@@ -198,5 +198,11 @@
   <ItemGroup>
     <Folder Include="Assets\Music\" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\free-icon-sun-rays-3385807.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\free-icon-night-483531.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

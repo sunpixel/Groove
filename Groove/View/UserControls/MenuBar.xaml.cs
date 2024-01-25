@@ -33,9 +33,13 @@ namespace Groove.View.UserControls
             Environment.Exit(GetHashCode());
         }
 
-        private void btn_Profile_Click(object sender, RoutedEventArgs e)
+        private void btn_Mode_Click(object sender, RoutedEventArgs e)
         {
-            
+            bool Dark = false;
+            if (Dark)
+            {
+                Mode_img.Source = new BitmapImage(new Uri(value, UriKind.Relative));
+            }
         }
 
 /*
