@@ -56,6 +56,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="MainFunctions\FileHandler.cs" />
+    <Compile Include="MainFunctions\ModeSwitch.cs" />
     <Compile Include="MainFunctions\SoundPlayer.cs" />
     <Compile Include="View\Pages\Janres.xaml.cs">
       <DependentUpon>Janres.xaml</DependentUpon>
@@ -177,7 +178,6 @@
     <Resource Include="Assets\Profile_Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\moon.png" />
     <Resource Include="Assets\sun.png" />
   </ItemGroup>
   <ItemGroup>
@@ -199,10 +199,7 @@
     <Folder Include="Assets\Music\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\free-icon-sun-rays-3385807.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\free-icon-night-483531.png" />
+    <Resource Include="Assets\Month.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

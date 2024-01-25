@@ -20,6 +20,10 @@ namespace Groove.View.UserControls
     /// </summary>
     public partial class MenuBar : UserControl
     {
+        bool Dark = false;
+
+
+
         public MenuBar()
         {
             InitializeComponent();
@@ -35,11 +39,32 @@ namespace Groove.View.UserControls
 
         private void btn_Mode_Click(object sender, RoutedEventArgs e)
         {
-            bool Dark = false;
-            if (Dark)
+            if (!Dark)
             {
-                Mode_img.Source = new BitmapImage(new Uri(value, UriKind.Relative));
+                Mode_img.Source = new BitmapImage(new Uri("/Assets/sun.png", UriKind.Relative));
+                Dark = true;
+                Mode_Dark();
             }
+            else
+            {
+                Mode_img.Source = new BitmapImage(new Uri("/Assets/Month.png", UriKind.Relative));
+                Dark = false;
+                Mode_Light();
+            }
+        }
+
+        private void Mode_Dark()
+        {
+            Grid.Background = Brushes.Black;
+            M_Add.Foreground = Brushes.White;
+            Add_song.Foreground = Brushes.Black;
+            Add_songs.Foreground = Brushes.Black;
+            Exit.Foreground = Brushes.Black;
+        }
+
+        private void Mode_Light()
+        {
+            Grid.Background = Brushes.White;
         }
 
 /*
