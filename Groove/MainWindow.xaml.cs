@@ -31,5 +31,12 @@ namespace Groove
             InitializeComponent();
             window.Content = new Main();
         }
+
+        public void Mode(bool Dark)
+        {
+            if (Dark) { Grids.Background = Brushes.Black; }
+            else { Grids.Background = Brushes.White; }
+        }
+
     }
 }

@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using Groove.MainFunctions;
+
 namespace Groove.View.UserControls
 {
     /// <summary>
@@ -23,7 +25,7 @@ namespace Groove.View.UserControls
         bool Dark = false;
 
 
-
+        
         public MenuBar()
         {
             InitializeComponent();
@@ -39,6 +41,8 @@ namespace Groove.View.UserControls
 
         private void btn_Mode_Click(object sender, RoutedEventArgs e)
         {
+            ModeSwitch mS = new ModeSwitch();
+
             if (!Dark)
             {
                 Mode_img.Source = new BitmapImage(new Uri("/Assets/sun.png", UriKind.Relative));
@@ -51,6 +55,8 @@ namespace Groove.View.UserControls
                 Dark = false;
                 Mode_Light();
             }
+
+            mS.Switch(Dark);
         }
 
         private void Mode_Dark()
@@ -65,6 +71,7 @@ namespace Groove.View.UserControls
         private void Mode_Light()
         {
             Grid.Background = Brushes.White;
+            M_Add.Foreground = Brushes.Black;
         }
 
 /*
