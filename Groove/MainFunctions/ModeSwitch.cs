@@ -16,8 +16,9 @@ namespace Groove.MainFunctions
 
         public void Switch(bool IsDark)
         {
-            Dark = IsDark;
             MainWindow mW = new MainWindow();
+
+            Dark = IsDark;
             mW.Mode(Dark);
 
         }

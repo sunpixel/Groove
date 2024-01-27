@@ -61,7 +61,10 @@ namespace Groove.View.UserControls
 
         private void Mode_Dark()
         {
-            Grid.Background = Brushes.Black;
+            // Required for converting HEX to color
+            var bc = new BrushConverter();
+
+            Grid.Background = (Brush)bc.ConvertFrom("#293133");
             M_Add.Foreground = Brushes.White;
             Add_song.Foreground = Brushes.Black;
             Add_songs.Foreground = Brushes.Black;

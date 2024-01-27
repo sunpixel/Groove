@@ -18,7 +18,7 @@
         MinWidth="350">
 
 
-    <Grid x:Name="Grids" Background="White">
+    <Grid x:Name="Grids" Background="White" Visibility="Visible">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -26,15 +26,15 @@
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="0">
+        <Grid Grid.Row="0" >
             <UserControls:MenuBar/>
         </Grid>
 
-        <Frame Grid.Row="1" x:Name="window">
+        <Frame Grid.Row="1" x:Name="window" BorderThickness="0,1,0,1" BorderBrush="Black" >
             
         </Frame>
 
-        <UserControls:FooterMenu Grid.Row="2" PlayTime="50"/>
+        <UserControls:FooterMenu Grid.Row="2" PlayTime="50" Visibility="Hidden"/>
 
     </Grid>
 </Window>

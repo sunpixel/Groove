@@ -30,12 +30,23 @@ namespace Groove
         {
             InitializeComponent();
             window.Content = new Main();
+
         }
 
         public void Mode(bool Dark)
         {
-            if (Dark) { Grids.Background = Brushes.Black; }
-            else { Grids.Background = Brushes.White; }
+            var bc = new BrushConverter();
+
+            if (Dark)
+            {
+                Grids.Background = (Brush)bc.ConvertFrom("#293133");
+                window.BorderBrush = Brushes.White;
+            }
+            else 
+            { 
+                Grids.Background = Brushes.White;
+                window.BorderBrush = (Brush)bc.ConvertFrom("#293133");
+            }
         }
 
     }
